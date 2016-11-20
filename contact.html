@@ -3,13 +3,13 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Contact | Melissa Shah</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		
 	</head>
 	
 	<body style="background-color: #ddd">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		
 		<nav class="navbar navbar-default" style="height:100px; padding-top: 15px">
 			<div class="container-fluid">
@@ -39,72 +39,86 @@
 <div class="container">
 	<div class="row">
 		<!-- 8 column about me -->
-		<div class="col-md-8" style="background-color: #eee">
-			<div class="row">
+		<div class="col-md-8" style="background-color: #eee; padding: 1em;">
+			<!-- <div class="row"> -->
 				
-				<h1 style="color:teal;">Contact </h1>
-			</div>
-			
+				
+				<!-- about me row -->
+				<!-- image and text row -->
+				<div class="page-header">
 					
-					<div class="contactForm nonHeadFont">
-						<form class="formModule">
-							<div class="formElement">
-								<label for="name">Name:</label>
-								<input type="text" id="nameForm" name="contact_name" placeholder="Your Name" />
-							</div>
-							<div class="formElement">
-								<label for="mail">E-mail:</label>
-								<input type="email" id="mail" name="contact_mail" placeholder="yourEmail@example.com" />
-							</div>
-							<div class="formElement">
-								<label for="msg">Message:</label>
-								<textarea id="msg" name="contact_message"></textarea>
-							</div>
-							<div class="formElement">
-								<button type="submit" class="nonHeadFont" id="submitButton">Send Your Message</button>
-							</div>
-						</form>
-					</div>
-					<!-- 4 column panel -->
-					<div class="col-md-4">
-						<div class="jumbotron">
-							<div class="page-header">
-							<h3 style="color:teal">Connect with me</h3> </div>
-							
-							<div class="row">
-								<div class="col-md-4">
-									<a href="https://github.com/meli6570" class="thumbnail">
-										<img src="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/02/1423062384Octocat.png" height="55px" width="55px">
-									</a>
-								</div>
-								<div class="col-md-4">
-									<a href="https://www.linkedin.com/in/melissashah1?trk=nav_responsive_tab_profile_pic" class="thumbnail">
-										<img src="
-										https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8niB_99rn8cOQ1oDZvYYYnOW7tMEc6h0211yExhjg7EAqmKkTYA"/ height= "55px" width="55px"" >
-									</a>
-								</div>
-								<div class="col-md-4">
-									<a href="#" class="thumbnail">
-										<img src="
-										http://www.iconsdb.com/icons/preview/orange/stackoverflow-4-xxl.png" height="55px" width="55px" alt="...">
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
+					
+					<h1 style="color:teal;">Contact </h1>
+					<hr style="border-color: #333;">
+
 				</div>
-			</div>
-			<br>
-			<div class="container">
+
+
+				<form>
+				  <div class="form-group">
+				    <label for="contact_name">Your Name</label>
+				    <input type="text" id="nameForm" name="contact_name" placeholder="Your Name">
+				  </div>
+				  <div class="form-group">
+				    <label for="contact_mail">Email address</label>
+				    <input type="email" id="mail" name="contact_mail" placeholder="yourEmail@example.com">
+				  </div>
+				  <textarea class="form-control" rows="3" id="msg" name="contact_message"></textarea>
+
+				  <button type="submit" class="btn btn-default">Submit</button>
+				</form>
+
+
+
+		</div>
+		<!-- 4 column panel -->
+		<div class="col-md-4">
+			<div class="jumbotron">
+				<div class="page-header">
+				<h3 style="color:teal">Connect with me</h3> </div>
+				
 				<div class="row">
-					<div class="col-md-12" style="background-color: grey; height:80px; border-top: 10px solid teal">
-						<footer class="footer">
-							<div class="container">
-								<p class="text-muted" style="text-align: center; color:white; font-size: 20px; padding-top: 20px">Copyright Melissa Shah 2016</p>
-							</div>
-						</footer>
+					<div class="col-md-4">
+						<a href="https://github.com/meli6570" class="thumbnail">
+							<img src="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/02/1423062384Octocat.png" height="55px" width="55px">
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="https://www.linkedin.com/in/melissashah1?trk=nav_responsive_tab_profile_pic" class="thumbnail">
+							<img src="
+							https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8niB_99rn8cOQ1oDZvYYYnOW7tMEc6h0211yExhjg7EAqmKkTYA"/ height= "55px" width="55px" >
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="#" class="thumbnail">
+							<img src="
+							http://www.iconsdb.com/icons/preview/orange/stackoverflow-4-xxl.png" height="55px" width="55px" alt="...">
+						</a>
+					</div>
 					</div>
 				</div>
 			</div>
-		</body>
-	</html>
+		</div>
+	</div>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12" style="background-color: grey; height:80px; border-top: 10px solid teal">
+				<footer class="footer">
+					<div class="container">
+						<p class="text-muted" style="text-align: center; color:white; font-size: 20px; padding-top: 20px">Copyright Melissa Shah 2016</p>
+					</div>
+				</footer>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+						
